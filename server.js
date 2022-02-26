@@ -5,8 +5,8 @@ const crypto = require("crypto");
 
 const hostname = '127.0.0.1';
 const port = 3000;
-const bhartipay_payid = '1123511103105347';
-const bhartipay_salt = 'a3be319f47804186';
+const bhartipay_payid = '';
+const bhartipay_salt = '';
 const server = http.createServer((req, res) => {
     bhartipay.isProdMode(false);
     bhartipay.setCredentails(bhartipay_payid, bhartipay_salt);
