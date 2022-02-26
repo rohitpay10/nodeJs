@@ -20,9 +20,9 @@ module.exports = {
 
 
     credentails: {
-        'pay_id': '1123511103105347', // will be provided by bhartipay
-        'salt': 'a3be319f47804186', // will be provided by bhartipay
-        'merchant_hosted_key':'B79A0869A7E57BDDEEEFBE5713444493'
+        'pay_id': '', // will be provided by bhartipay
+        'salt': '', // will be provided by bhartipay
+        'merchant_hosted_key':''
     },
 
     mode: 'prod',
