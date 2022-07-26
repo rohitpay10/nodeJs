@@ -2,8 +2,8 @@
     "name": "bhartipay-node",
     "version": "1.0.3",
     "description": "The bhartipay-node library to integrate in your nodejs applications.",
-    "author": "Kundan Kumar <\"kundandeveloper@gmail.com\"> (\"https://twitter.com/kundancool\")",
-    "homepage": "https://github.com/BhartiPay/bhartipay-node#readme",
+    "author": "Rohit Kumar Singh <\"rohit.singh@pay10.com\">",
+    "homepage": "",
     "license": "ISC",
     "keywords": [
         "bhartipay",
@@ -19,13 +19,13 @@
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BhartiPay/bhartipay-node.git"
+        "url": ""
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bugs": {
-        "url": "https://github.com/BhartiPay/bhartipay-node/issues"
+        "url": ""
     },
     "dependencies": {
         "aes256": "^1.1.0",
