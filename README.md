@@ -1,4 +1,4 @@
-# Bhartipay NodeJs Library
+# Pay10 NodeJs Library
 
 ### Demo
 ```sh
