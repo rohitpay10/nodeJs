@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
         res.write('<html>');
         res.write('<head>');
         res.write('<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />');
-        res.write('<title>Bhartipay Demo Merchant Checkout Page</title>');
+        res.write('<title>Pay10 Demo Merchant Checkout Page</title>');
         res.write('<style type="text/css" media="screen">');
         res.write('body{width:100%;margin:0 auto;background-color:#e4eff5}');
         res.write('.signupbox{margin:20px auto 0;padding:0;font:normal 12px arial;color:#555;background:#fff;border:1px solid #d0d0d0;border-radius:5px;-webkit-box-shadow:-1px 3px 8px -1px rgba(0,0,0,0.75);-moz-box-shadow:-1px 3px 8px -1px rgba(0,0,0,0.75);box-shadow:-1px 3px 8px -1px rgba(0,0,0,0.75)}');
@@ -63,13 +63,13 @@ const server = http.createServer((req, res) => {
         res.write('<tr>');
         res.write('<td class="labelfont">MERCHANT NAME: </td>');
         res.write('<td class="form-control">');
-        res.write('<input type="text" name="MERCHANTNAME" class="signuptextfield" value="Bhartipay Demo" autocomplete="off"/>');
+        res.write('<input type="text" name="MERCHANTNAME" class="signuptextfield" value="Pay10 Demo" autocomplete="off"/>');
         res.write('</td>');
         res.write('</tr>');
         res.write('<tr>');
         res.write('<td class="labelfont">ORDER ID: </td>');
         res.write('<td class="form-control">');
-        res.write('<input type="text" name="ORDER_ID" class="signuptextfield" value="BHARTID1204191528" autocomplete="off" />');
+        res.write('<input type="text" name="ORDER_ID" class="signuptextfield" value="PAY10204191528" autocomplete="off" />');
         res.write('</td>');
         res.write('</tr>');
         res.write('<tr>');
@@ -88,7 +88,7 @@ const server = http.createServer((req, res) => {
         res.write('<tr>');
         res.write('<td class="labelfont">CUSTOMER NAME: </td>');
         res.write('<td class="form-control">');
-        res.write('<input type="text" name="CUST_NAME" class="signuptextfield" value="BHARTIPAY DEMO" autocomplete="off"/>');
+        res.write('<input type="text" name="CUST_NAME" class="signuptextfield" value="PAY10 DEMO" autocomplete="off"/>');
         res.write('</td>');
         res.write('</tr>                   ');
         res.write('<tr>');
@@ -112,7 +112,7 @@ const server = http.createServer((req, res) => {
         res.write('<tr>');
         res.write('<td class="labelfont">CUSTOMER EMAILID: </td>');
         res.write('<td class="form-control">');
-        res.write('<input type="text" name="CUST_EMAIL" class="signuptextfield" value="test.user@bhartipay.com" autocomplete="off"/>');
+        res.write('<input type="text" name="CUST_EMAIL" class="signuptextfield" value="test@pay10.com" autocomplete="off"/>');
         res.write('</td>');
         res.write('</tr>');
         res.write('<tr>');
